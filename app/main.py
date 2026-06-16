@@ -45,9 +45,9 @@ app.add_middleware(
 
 
 # GET operation
-# @app.get("/")
-# async def root():
-#     return {"message": "Hello World man"}
+@app.get("/")
+def root():
+    return {"message": "Hello World!!!"}
 
 
 
